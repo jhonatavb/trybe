@@ -1,0 +1,8 @@
+let a = 200;
+let b = 25;
+
+console.log(a + b);
+console.log(a - b);
+console.log(a * b);
+console.log(a / b);
+console.log(a % b);
