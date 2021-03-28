@@ -1,4 +1,4 @@
-/* Programa que recebe o nome de uma peça de xadrez e retorna o movimento que ela faz, ignorando letras maiúsculas!
+/* Programa que recebe o nome de uma peça de xadrez e retorna o movimento que ela faz, ignorando letras maiúsculas! Caso a peça não exista retorna um aviso.
 */
 let chessPiece = ['king', 'queen', 'rook', 'bishop', 'knight', 'pawn'];
 
