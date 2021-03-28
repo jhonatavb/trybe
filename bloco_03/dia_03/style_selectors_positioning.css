@@ -58,3 +58,23 @@ ul.list-list-programming-languages li:nth-of-type(3) {
 .java {
   background-color: pink;
 }
+
+ul li a.stackoverflow:hover {
+  color: orange;
+}
+
+ul li a.w3schools:hover {
+  color: green;
+}
+
+ul li a.webdocs:hover {
+  color: black;
+}
+
+ul li a.devdocs:hover {
+  color: yellow;
+}
+
+ul li a.trybe:hover {
+  color: green;
+}
