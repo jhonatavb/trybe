@@ -1,3 +1,7 @@
 .tags-style {
   text-align: center;
 }
+
+li:hover {
+  background-color: green;
+}
