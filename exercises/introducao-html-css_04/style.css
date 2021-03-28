@@ -1,0 +1,45 @@
+h1 {
+  color: #8db8e1;
+}
+
+.menu-itens {
+  display: inline-block;
+  list-style: none;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: black;
+}
+
+#start-item {
+  position: absolute;
+  top: 220px;
+  right: 1176px;
+  padding: 6px;
+  width: 174px;
+  text-align: center;
+  border: 2px solid #3e83c8;
+}
+
+#about-item {
+  position: absolute;
+  position: absolute;
+  top: 220px;
+  right: 988px;
+  padding: 6px;
+  width: 174px;
+  text-align: center;
+  border: 2px solid #3e83c8;
+}
+
+#contact-item {
+  position: absolute;
+  position: absolute;
+  top: 220px;
+  right: 800px;
+  padding: 6px;
+  width: 174px;
+  text-align: center;
+  border: 2px solid #3e83c8;
+}
