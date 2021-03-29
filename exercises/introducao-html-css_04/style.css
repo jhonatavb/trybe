@@ -1,10 +1,20 @@
 h1 {
   color: #8db8e1;
+  position: absolute;
+  left: 374px;
+}
+
+h2 {
+  color: #1a6bba;
+  position: absolute;
+  top: 320px;
+  left: 526px;
 }
 
 .menu-itens {
-  display: inline-block;
+  position: absolute;
   list-style: none;
+  left: 1698px;
 }
 
 a:-webkit-any-link {
@@ -42,4 +52,38 @@ a:-webkit-any-link {
   width: 174px;
   text-align: center;
   border: 2px solid #3e83c8;
+}
+
+.style-main {
+  position: absolute;
+  margin: 0 auto;
+  width: 50%;
+  text-align: justify;
+  top: 388px;
+  left: 320px;
+}
+
+.part-aside {
+  position: absolute;
+  top: 284px;
+  left: 1080px;
+  width: 200px;
+}
+
+#tag-aside {
+  background-color: royalblue;
+  text-align: center;
+}
+
+#paragraph-aside {
+  background-color: white;
+  text-align: justify;
+}
+
+.footer-control {
+  position: absolute;
+  top: 800px;
+  left: 320px;
+  width: 50%;
+  text-align: center;
 }
