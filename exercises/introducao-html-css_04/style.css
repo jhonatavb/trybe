@@ -1,104 +1,67 @@
+body {
+  background-color: #004D69;
+  font-family: Montserrat;
+}
+
 h1 {
-  color: #8db8e1;
-  position: absolute;
-  left: 374px;
+  color: #0171BC;
+  text-align: center;
+  padding-top: 100px;
 }
 
 h2 {
-  color: #1a6bba;
-  position: absolute;
-  top: 320px;
-  left: 526px;
+  text-align: center;
+  padding-top: 40px;
 }
 
 h3 {
-  position: absolute;
-  top: 390px;
-  left: 580px;
+  text-align: center;
+  padding-top: 20px;
 }
 
-.menu-itens {
-  position: absolute;
-  list-style: none;
-  left: 1698px;
+.div-header {
+  height: 260px;
+  background-image: url(/images/mantis_shrimp_logo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 20%;
 }
 
-a:-webkit-any-link {
+.menubar {
+  padding-top: 36px;
+  text-align: center;
+}
+
+.menubar a{
   text-decoration: none;
-  color: black;
-}
-
-#start-item {
-  position: absolute;
-  top: 220px;
-  right: 1176px;
-  padding: 6px;
-  width: 174px;
+  padding: 18px 60px;
+  margin-right: 10px;
   text-align: center;
-  border: 2px solid #3e83c8;
-}
-
-#about-item {
-  position: absolute;
-  position: absolute;
-  top: 220px;
-  right: 988px;
-  padding: 6px;
-  width: 174px;
-  text-align: center;
-  border: 2px solid #3e83c8;
-}
-
-#contact-item {
-  position: absolute;
-  position: absolute;
-  top: 220px;
-  right: 800px;
-  padding: 6px;
-  width: 174px;
-  text-align: center;
-  border: 2px solid #3e83c8;
-}
-
-.style-main {
-  position: absolute;
-  margin: 0 auto;
-  width: 50%;
-  text-align: justify;
-  top: 700px;
-  left: 320px;
-}
-
-.part-aside {
-  position: absolute;
-  top: 320px;
-  left: 1080px;
-  width: 200px;
-}
-
-#tag-aside {
+  color: white;
   background-color: royalblue;
-  text-align: center;
-}
-
-#paragraph-aside {
-  background-color: white;
-  text-align: justify;
-}
-
-.footer-control {
-  position: absolute;
-  top: 1200px;
-  left: 320px;
-  width: 50%;
-  text-align: center;
+  border: 1px solid white;
+  border-radius: 100px;
 }
 
 table {
-  position: absolute;
   margin: 0 auto;
-  width: 50%;
   text-align: center;
-  top: 470px;
-  left: 320px;
+}
+
+.div-paragraph {
+  float: left;
+  margin: 0 1.5%;
+  width: 64%;
+}
+
+.div-aside {
+  text-align: center;
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+.div-footer {
+  text-align: center;
+  clear: both;
 }
