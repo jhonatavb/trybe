@@ -1,26 +1,32 @@
-body {
-  background-color: #004D69;
+* {
+  margin: 0px auto;
+  padding: 0px;
   font-family: Montserrat;
 }
 
+body {
+  background: #434749;
+}
+
 h1 {
-  color: #0171BC;
+  color: #18285A;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 440px;
 }
 
 h2 {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 140px;
 }
 
 h3 {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .div-header {
-  height: 260px;
+  height: 20rem;
   background-image: url(/images/mantis_shrimp_logo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -37,31 +43,47 @@ h3 {
   padding: 18px 60px;
   margin-right: 10px;
   text-align: center;
-  color: white;
-  background-color: royalblue;
-  border: 1px solid white;
+  font-weight: bolder;
+  color: rgb(180, 180, 180);
+  background-color: rgb(24, 40, 90);
+  border: 1px solid rgb(18, 0, 100);
   border-radius: 100px;
 }
 
+.div-general {
+  display: inline-block;
+}
+
 table {
-  margin: 0 auto;
   text-align: center;
 }
 
 .div-paragraph {
   float: left;
-  margin: 0 1.5%;
-  width: 64%;
+  width: 63%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  text-align: justify;
+  /* background: red; */
+}
+
+.div-body{
+  display: inline-block;
 }
 
 .div-aside {
-  text-align: center;
-  float: right;
-  margin: 0 1.5%;
-  width: 30%;
+  position: absolute;
+  left: 1040px;
+  bottom: 10px;
+  text-align: justify;
+  /* background: red; */
+  width: 20%;
 }
 
 .div-footer {
+  /* background: red; */
+  display: inline-block;
   text-align: center;
   clear: both;
 }
