@@ -10,7 +10,12 @@ lucro = valorVenda - valorCustoTotal (lucro de um produto)
 let productCost = 10.00;
 let saleValue = 40.00;
 
-let tax = productCost * 0.2;
-let totalCostValue = productCost + tax;
-let totalSaleValue = saleValue - totalCostValue;
-totalSaleValue *= 1000;
+if (productCost < 0 || saleValue < 0) {
+  console.log('Erro');
+} else {
+  let tax = productCost * 0.2;
+  let totalCostValue = productCost + tax;
+  let totalSaleValue = saleValue - totalCostValue;
+  totalSaleValue *= 1000;
+  console.log(totalSaleValue);
+}
