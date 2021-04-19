@@ -1,16 +1,26 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <!--
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercícios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!--
       1. Recupere o elemento que contém o título da página e faça algo com ele, como alterá-lo para o nome do seu filme favorito.
       2. Agora recupere o segundo parágrafo e use sua criatividade para alterá-lo.
       3. Por fim, recupere o subtítulo e altere-o também.
+      4. Adicione ao seu HTML uma classe com alguns estilos para os seus dois parágrafos.
+      5. Recupere os seus parágrafos via código JavaScript , usando a função getElementsByClassName;
+      6. Altere algum estilo do primeiro deles.
+      7. Recupere o subtítulo pela tag.
     -->
     <h2 id="page-title">Título</h2>
-    <p id="paragraph">Dê uma cor para este parágrafo!</p>
+    <p id="paragraph" class="box">Dê uma cor para este parágrafo!</p>
     <h4 id="subtitle">Subtítulo</h4>
-    <p id="second-paragraph">Segundo parágrafo!</p>
-
+    <p id="second-paragraph" class="box">Segundo parágrafo!</p>
     <script>
       var paragraph = document.getElementById("paragraph");
       paragraph.style.color = "rgb(128, 128, 128)";
@@ -20,6 +30,9 @@
       let subtitle = document.getElementById('subtitle');
       subtitle.innerText = 'Swordfish é um filme de suspense norte-americano, dirigido por Dominic Sena (60 Segundos) com John Travolta, Hugh Jackman, Halle Berry e Don Cheadle no elenco.';
       secondParagraph.innerText = 'O mais perigoso espião do planeta tem por missão coagir um hacker que recentemente saiu da prisão a auxiliar no roubo de US$ 9,5 bilhões de dólares em fundos governamentais. Há um mundo oculto por baixo daquilo que chamamos de ciberespaço, que é protegido por firewalls, senhas e os mais avançados sistemas de segurança. Neste mundo estão escondidos os maiores segredos, as informações mais incriminadoras e, obviamente, muito dinheiro. Este é o mundo de Gabriel Shear (John Travolta), espião carismático e perigoso que deseja financiar ações antiterroristas, pois esta é sua forma de ser patriota e assegurar o american way of life. Mas para isso precisa entrar nesse mundo e conseguir pôr as mãos em fundos ilegais, que se originaram quando o DEA em 1986 fechou uma empresa de fachada. Lá havia 400 milhões de dólares que "ficaram perdidos" e, em quinze anos, se transformaram em 9,5 bilhões de dólares. Para pôr a mão nesse dinheiro precisará de Stanley Jobson (Hugh Jackman), um super-hacker que tem conhecimento e talento para quebrar os sistemas de segurança mais fechados do mundo. Stanley é um dos melhores hackers do planeta, no entanto foi legalmente proibido de se aproximar a menos de 45 metros de uma loja de eletrônicos depois de ter se metido em confusão com operações altamente tecnológicas do FBI de vigilância cibernética. No momento Stanley está morando em um trailer quebrado, não tem dinheiro, está sozinho e sem a maior alegria da sua vida: Holly (Camryn Grimes), sua filha, pois perdeu a guarda no processo de divórcio para sua mulher, que agora está casada com um rico produtor de filmes pornográficos, além de ser uma de suas "atrizes". Ginger (Halle Berry), uma sensual cúmplice de Gabriel, conversa com Stanley e, como sabem que será difícil atraí-lo, Ginger oferece 100 mil dólares para Jobson apenas "bater um papo" com Gabriel, sendo que se não gostar poderá ir embora com o dinheiro, que proporcionará a Stanley recomeçar sua vida e ter Holly novamente. Mas quando Stanley entra no mundo deles percebe que se fizer o serviço ganhará 10 milhões de dólares, mas é uma peça tão básica neste roubo high tech que não tem a opção de dizer não. Mas acaba descobrindo que no submundo digital do crime as aparências realmente enganam.';
+      let styleClass = document.getElementsByClassName('box');
+      styleClass[0].style.backgroundColor = 'rgb(230, 230, 230)';
+      let tagSubtitle = document.getElementsByTagName('h4');
     </script>
-  </body>
+</body>
 </html>
