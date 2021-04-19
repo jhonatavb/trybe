@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+  </head>
+  <body>
+    <h1>Exercícios</h1>
+    <!-- Exercícios
+     1 - Crie uma lista das pessoas que você já fez amizade na Trybe
+     2 - Adicione uma imagem que venha de uma URL externa.
+     3 - Adicione uma imagem que está no seu computador, local
+     Exercícios - Continue o exemplo anterior
+     4 - Crie um parágrafo para cada pessoa da sua lista
+     5 - Crie um link entre a sua lista e os parágrafos de pessoas
+     6 - Crie um link para a página do Google
+    -->
+    <h2>Grupo 08 - 'Sim ou Não?'</h2>
+    <h3>Amigos que fiz na trybe!</h3>
+    <ul>
+      <li><a href="#member-amandha">Amandha Wingert Barok</a></li>
+      <img src="/bloco_03/dia_01/images/members/Amandha_Wingert_Barok.jpeg" width="80px" alt="foto da Amandha">
+      <li><a href="#member-beatriz">Beatriz Ramalho Lins da Silva</a></li>
+      <img src="/bloco_03/dia_01/images/members/Beatriz_Ramalho_Lins_da_Silva.jpeg" width="80px" alt="foto da Beatriz">
+      <li><a href="#member-danilo">Danilo Pereira Santos</a></li>
+      <img src="/bloco_03/dia_01/images/members/Danilo_Pereira_Santos.jpeg" width="80px" alt="foto do Danilo">
+      <li><a href="#member-ghislaine">Ghislaine Latorraca</a></li>
+      <img src="/bloco_03/dia_01/images/members/Ghislaine_Latorraca.jpeg" width="80px" alt="foto da Ghislaine">
+      <li><a href="#member-lucas">Lucas Maestrelli Castro</a></li>
+      <img src="/bloco_03/dia_01/images/members/Lucas_Maestrelli_Castro.jpeg" width="80px" alt="foto do Lucas">
+      <li><a href="#member-marco">Marco Antonio Galindo de Oliveira</a></li>
+      <img src="/bloco_03/dia_01/images/members/Marco_Antonio_Galindo_de_Oliveira.jpeg" width="80px" alt="foto do Marco">
+      <li><a href="#member-matheus">Matheus Henrique Mendes Alexandre</a></li>
+      <img src="/bloco_03/dia_01/images/members/Matheus_Henrique_Mendes_Alexandre.jpeg" width="80px" alt="foto do Matheus">
+    </ul>
+    <br>
+    <h3>Sobre o grupo:</h3>
+    <p>O grupo 08, mais conhecido como grupo 'Sim ou Não?', nome sugerido pelo membro Matheus e muito bem aceito por todos do grupo, foi escolhido em homenagem ao querido instrutor Gabriel Oliva, que muito utiliza essa frase para interagir com as pessoas da turma, praticamente virou um bordão. O grupo foi formado inicialmente para um pequeno projeto de interação onde os membros teriam de se unir em 'breakout rooms' para a dinâmica dos 'Post-it' que consistia em explicar o que acontece por debaixo dos panos quando uma pessoa digitava no navegador um site, que no caso o site sugerido foi o google. O grupo rapidamente começou a interagir e discutir sobre o que cada pessoa achava que acontecia, fomos refinando as ideias até chegarmos a um consenso de que a partir do momento que uma pessoa digita um site como o google no navegador, o cliente traduz esse nome de domínio através do DNS para um número de IP, cada site tem o seu e alguns possuem mais de um IP que leva ao mesmo lugar, por questões de seguraça. Após ter o IP do site o navegador(cliente) monta uma requisição que pode ter vários verbos como por exemplo, GET, POST, DELETE dentre outros, no caso de um acesso a um site ele monta uma requisição do tipo GET e através de um número de porta, geralmente para serviços web a porta padrão é 80, mas pode ser alterada de acordo com o dono do domínio, após a requisição chegar  ao servidor através do IP com o número da porta, existe um balanceamento para evitar que muitos acessos comprometam um dos três pilares fundamentais da segurança da informação que é a disponibilidade, com muitos acessos sem um balanceamento de carga o site pode 'cair' ou seja ficar fora do ar, após o balanceamento a requisição chega no servidor que consulta o banco de dados e retorna uma resposta, que também pode ser diversas como por exemplo 200 OK, 401 UNAUTHORIZED, 403 FORBIDDEN, 404 NOT FOUND, dentre outras, no caso se a requisição foi bem sucedida retornará um 200 OK, essa resposta vem em forma de linguagens como HTML, CSS, JavaScript e é renderizada pelo navegador para aparecer toda bonita como vemos.</p>
+    <img src="https://i.ibb.co/4RDbQdz/Diagrama-grupo08.png" width="800px" alt="Diagrama do Grupo 'Sim ou Não?'">
+    <p>Acima podemos observar o diagrama criado pelo grupo 08 - 'Sim ou Não?' para saber mais informações sobre como funciona a internet, pode acessar o <a href="https://www.google.com">google</a>.</p>
+    <br>
+    <p id="member-amandha"><strong>Amandha Wingert Barok:</strong> Contribuiu muito para o grupo com suas ideias, é uma pessoa maravilhosa e trabalha muito bem em grupo, sabe se impor, tem um senso crítico incrível e é muito assertiva em suas colocações.</p>
+    <p id="member-beatriz"><strong>Beatriz Ramalho Lins da Silva:</strong> Contribuiu muito para o grupo com suas ideias, é uma pessoa maravilhosa e trabalha muito bem em grupo, sabe se impor, tem um senso crítico incrível e é muito assertiva em suas colocações.</p>
+    <p id="member-danilo"><strong>Danilo Pereira Santos:</strong> Contribuiu muito para o grupo com suas ideias, é uma pessoa maravilhosa e trabalha muito bem em grupo, sabe se impor, tem um senso crítico incrível e é muito assertivo em suas colocações.</p>
+    <p id="member-ghislaine"><strong>Ghislaine Latorraca:</strong> Contribuiu muito para o grupo com suas ideias, é uma pessoa maravilhosa e trabalha muito bem em grupo, sabe se impor, tem um senso crítico incrível e é muito assertiva em suas colocações.</p>
+    <p id="member-lucas"><strong>Lucas Maestrelli Castro:</strong> Contribuiu muito para o grupo com suas ideias, é uma pessoa maravilhosa e trabalha muito bem em grupo, sabe se impor, tem um senso crítico incrível e é muito assertivo em suas colocações.</p>
+    <p id="member-marco"><strong>Marco Antonio Galindo de Oliveira:</strong> Contribuiu muito para o grupo com suas ideias, é uma pessoa maravilhosa e trabalha muito bem em grupo, sabe se impor, tem um senso crítico incrível e é muito assertivo em suas colocações.</p>
+    <p id="member-matheus"><strong>Matheus Henrique Mendes Alexandre:</strong> Contribuiu muito para o grupo com suas ideias, é uma pessoa maravilhosa e trabalha muito bem em grupo, sabe se impor, tem um senso crítico incrível e é muito assertivo em suas colocações.</p>
+  </body>
+</html>
